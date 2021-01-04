@@ -137,7 +137,7 @@ for (x in 1:length(graf.dim.pre)) {
 print(graf.dim.pre)
 #asignacion productoxprecio
 for (x in 1:length(graf.dim.nom)) {
-  print("--------------- NOMBRE CUADERNO Y PRECIO DIMEIGGS ---------------")
+  print("--------------- NOMBRE LAPIZ GRAFITO Y PRECIO DIMEIGGS ---------------")
   print(graf.dim.nom[x])
   print(graf.dim.pre[x])  
 }
@@ -156,7 +156,7 @@ for (x in 1:length(graf.NA.pre)) {
 print(graf.NA.pre)
 #asignacion productoxprecio
 for (x in 1:length(graf.NA.nom)) {
-  print("--------------- NOMBRE LAPIZ Y PRECIO NACIONAL ---------------")
+  print("--------------- NOMBRE LAPIZ GRAFITO Y PRECIO NACIONAL ---------------")
   print(graf.NA.nom[x])
   print(graf.NA.pre[x])  
 }
@@ -207,7 +207,7 @@ for (x in 1:length(col.dim.pre)) {
 print(col.dim.pre)
 #asignacion productoxprecio
 for (x in 1:length(col.dim.nom)) {
-  print("--------------- NOMBRE CUADERNO Y PRECIO DIMEIGGS ---------------")
+  print("--------------- NOMBRE LAPIZ DE COLOR Y PRECIO DIMEIGGS ---------------")
   print(col.dim.nom[x])
   print(col.dim.pre[x])  
 }
@@ -279,7 +279,7 @@ for (x in 1:length(past.dim.pre)) {
 print(past.dim.pre)
 #asignacion productoxprecio
 for (x in 1:length(past.dim.nom)) {
-  print("--------------- NOMBRE CUADERNO Y PRECIO DIMEIGGS ---------------")
+  print("--------------- NOMBRE LAPIZ PASTA Y PRECIO DIMEIGGS ---------------")
   print(past.dim.nom[x])
   print(past.dim.pre[x])  
 }
@@ -347,7 +347,7 @@ for (x in 1:length(gom.dim.pre)) {
 print(gom.dim.pre)
 #asignacion productoxprecio
 for (x in 1:length(gom.dim.nom)) {
-  print("--------------- NOMBRE CUADERNO Y PRECIO DIMEIGGS ---------------")
+  print("--------------- NOMBRE GOMA Y PRECIO DIMEIGGS ---------------")
   print(gom.dim.nom[x])
   print(gom.dim.pre[x])  
 }
@@ -415,7 +415,7 @@ for (x in 1:length(peg.dim.pre)) {
 print(peg.dim.pre)
 #asignacion productoxprecio
 for (x in 1:length(peg.dim.nom)) {
-  print("--------------- NOMBRE CUADERNO Y PRECIO DIMEIGGS ---------------")
+  print("--------------- NOMBRE PEGAMENTO Y PRECIO DIMEIGGS ---------------")
   print(peg.dim.nom[x])
   print(peg.dim.pre[x])  
 }
@@ -633,7 +633,7 @@ for (x in 1:length(peg.NA.nom)) {
 print(peg.NA.nom[x])
 min(peg.NA.pre)
 
-#Media de precio de cada producto y tienda
+#Mediana de precio de cada producto y tienda
 
 #CUADERNO
 for (x in 1:length(cuad.dim.nom)) {
